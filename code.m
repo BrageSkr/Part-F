@@ -21,7 +21,7 @@ testData = shuffledData(splitPoint+1:end, :); % Test set (30%)
 %%
 
 DatasetOutRange = zeros(300,4);%
-DatasetOutRange(:,1)=0 + (1.2-0) .* rand(300,1);% between 0-10 increment by 0.1
+DatasetOutRange(:,1)=0 + (1.2-0) .* rand(300,1);
 DataDatasetOutRangeset(:,2)=0 + (1.4-0) .* rand(300,1);
 DatasetOutRange(:,3)=0 + (1.4-0) .* rand(300,1);
 fis = readfis('systemFIS');
